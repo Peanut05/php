@@ -28,3 +28,27 @@
                 echo "The value of variable1 / variable2 is :";
                 echo $variable1/$variable2;
                 echo "<br>";
+                    //Assignment oprators
+                $number = 10;
+                $newvar = $number;
+                echo "new var will be" . $newvar;
+                echo"<br>";
+                // $newvar += $number;
+                // echo "new var will be" . $newvar;
+                // echo"<br>";
+                // $newvar -= $number;
+                // echo "new var will be" . $newvar;
+                // echo"<br>";
+                // $newvar *= $number;
+                // echo "new var will be" . $newvar;
+                // echo"<br>";  
+                // $newvar /= $number;
+                // echo "new var will be" . $newvar;
+                // echo"<br>";
+                // $newvar <= $number;
+                // echo "new var will be" . $newvar;
+                // echo"<br>";
+                // $newvar >= $number;
+                // echo "new var will be" . $newvar;
+                // echo"<br>";
+                    

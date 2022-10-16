@@ -69,3 +69,14 @@
                 echo "The value of 1>=3 is :";
                 echo var_dump(1>=3);
                 echo "<br>";
+                    //Increment\ Decrement Oprators
+                echo "<h3>Increment\ Decrement Oprators</h3>";    
+                echo "number++ is :" . $number++ . "<br>";
+                echo $number;
+                //echo "number-- is :" . $number-- . "<br>";
+                //echo $number;
+                //echo "++number is :" . ++$number . "<br>";
+                //echo "--number is :" . --$number . "<br>";
+                    
+                    # $var++ first print then increment
+                    # ++$var first increment then print

@@ -51,4 +51,21 @@
                 // $newvar >= $number;
                 // echo "new var will be" . $newvar;
                 // echo"<br>";
-                    
+                    //Comparision Oprators
+                    # -- it provide us boolean values that is true or false
+                echo "<h3>comparision oprator</h3>";
+                echo "The value of 1==3 is :";
+                echo var_dump(1==3);
+                echo "<br>";
+
+                echo "The value of 1!=3 is :";
+                echo var_dump(1!=3);
+                echo "<br>";
+
+                echo "The value of 1<=3 is :";
+                echo var_dump(1<=3);
+                echo "<br>";
+
+                echo "The value of 1>=3 is :";
+                echo var_dump(1>=3);
+                echo "<br>";

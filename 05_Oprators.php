@@ -101,3 +101,30 @@
                     #$myvar = (false and fals);
                     echo var_dump($myvar);
 
+
+                #-- or / ||
+                    
+                    echo "<br>";
+                    $myvar1 = 10;
+                    #$myvar1 = (true or true);
+                    $myvar1 = (true or false);
+                    #$myvar1 = (false or true);
+                    #$myvar1 = (false or false);
+                    echo var_dump($myvar1);
+                
+                #-- Xor
+
+                    echo "<br>";
+                    $myvar2 = 15;
+                    #$myvar2 = (true xor true);
+                    #$myvar2 = (true xor false);
+                    #$myvar2 = (false xor false);
+                    $myvar2 = (false xor true);
+                    echo var_dump($myvar2);
+
+
+    ?>
+
+</body>
+</html>
+

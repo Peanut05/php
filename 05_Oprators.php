@@ -7,3 +7,24 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+                    //--oprators in php
+                    //arithmatic oprators 
+                $variable1 = 2;
+                $variable2 = 5;
+                echo "<br>";
+                echo "The value of variable1 + variable2 is :";
+                echo $variable1+$variable2;
+                echo "<br>";
+                echo "<br>";
+                echo "The value of variable1 - variable2 is :";
+                echo $variable1-$variable2;
+                echo "<br>";
+                echo "<br>";
+                echo "The value of variable1 * variable2 is :";
+                echo $variable1*$variable2;
+                echo "<br>";
+                echo "<br>";
+                echo "The value of variable1 / variable2 is :";
+                echo $variable1/$variable2;
+                echo "<br>";

@@ -80,3 +80,24 @@
                     
                     # $var++ first print then increment
                     # ++$var first increment then print
+
+    
+                    //Logical Oprators
+                    echo "<h4> Logical Oprators in php</h4>" ;
+                /* 1) and (&&)
+                2) or (||)
+                3) xor
+                4) not ! */
+                
+                echo"<br>";
+                echo "<h4> Logical Oprators</h4>" ;
+                #-- And / &&
+
+                    $myvar = 5;
+
+                    $myvar = (true and true);
+                    #$myvar = (true and false);
+                    #$myvar = (false and true);
+                    #$myvar = (false and fals);
+                    echo var_dump($myvar);
+

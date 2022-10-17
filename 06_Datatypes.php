@@ -50,7 +50,7 @@
 
             Echo "<br>" ;
             define ('cst' "its constant");
-            echo panoti;
+            echo pi;
 
     ?>
     

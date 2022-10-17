@@ -39,3 +39,20 @@
             $var5 = array("Peanut Butter", "Parshu" , "Paimon");
             echo var_dump($var5);
 
+
+            // Constant in php
+
+            # constant define with define function
+
+            echo "<br>" . "constant :" . "<br>";
+            define ('pi' , 3.14);
+            echo pi;
+
+            Echo "<br>" ;
+            define ('cst' "its constant");
+            echo panoti;
+
+    ?>
+    
+</body>
+</html>

@@ -16,3 +16,26 @@
             #-- boolean
             #-- object
             #-- array
+
+    
+            # 1) String :
+
+            $var = "This is string";
+            echo var_dump($var);
+
+            echo "<br>";
+            $var2 = 20;
+            echo var_dump($var2);
+
+            echo "<br>";
+            $var3 = 29.20;
+            echo var_dump($var3);
+
+            echo "<br>";
+            $var4 = true;
+            echo var_dump($var4);
+
+            echo "<br>";
+            $var5 = array("Peanut Butter", "Parshu" , "Paimon");
+            echo var_dump($var5);
+

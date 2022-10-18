@@ -51,3 +51,15 @@
                     Echo "you cannot go to the party";
 
                 }
+
+
+                // array
+                $languages = array("c" , "c++" , "python" , "php");
+                echo "<br>";
+                echo $languages[1];
+                echo "<br>";
+                echo "items in our array is" . count($languages);
+        ?>
+
+</body>
+</html>

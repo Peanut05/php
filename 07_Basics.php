@@ -28,3 +28,26 @@
         <h1> This is container</h1>
         This is container
         <p> Your party status is here</p>
+
+        <?php
+            $age = 10;
+             if($age>18)
+                {
+                    echo "You Can go to the party";
+
+                }
+                elseif($age==10)
+                {
+                    Echo "you are 6 years old";
+                }
+
+                elseif($age==17)
+                {
+                    Echo "you are 17 years old";
+                }
+
+                else
+                {
+                    Echo "you cannot go to the party";
+
+                }

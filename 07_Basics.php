@@ -22,3 +22,9 @@
 
         </style>
             
+<body>
+        
+        <div class = "container">
+        <h1> This is container</h1>
+        This is container
+        <p> Your party status is here</p>

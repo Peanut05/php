@@ -30,3 +30,13 @@
         //     Echo $lang[$s] ;
         //     $s++ ;
         //     }
+        
+        // #-- Do while Loop
+        // $c = 1 ;
+        // do{
+        //     Echo "<br> The value of c is: " ; 
+        //     echo $c ;
+        //     $c++ ;
+        // }
+        // while ($c < 9) 
+        

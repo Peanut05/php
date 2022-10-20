@@ -19,3 +19,14 @@
         //     echo $a;
         //     $a++;
         //     }
+
+        // #-- Itrating array in php using while loop 
+        //     $lang = array("Hindi" , "English" , "Marathi" , "Gujrati" , "telagu");
+            
+        //     $s = 0;
+        //     while ($s < count($lang)){
+        //     echo "<br>";
+        //     echo "The value of languages is:" ;
+        //     Echo $lang[$s] ;
+        //     $s++ ;
+        //     }

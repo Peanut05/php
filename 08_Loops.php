@@ -33,6 +33,7 @@
         
         // #-- Do while Loop
         // $c = 1 ;
+    
         // do{
         //     Echo "<br> The value of c is: " ; 
         //     echo $c ;
@@ -40,3 +41,18 @@
         // }
         // while ($c < 9) 
         
+        #-- For Loop
+
+        for ($d=0; $d < 12; $d++) { 
+            echo "<br> Saste nashe";
+            echo $d ;
+        }
+        $langguages = array("Hindi" , "English" , "Marathi" , "Gujrati" , "telagu");
+        foreach ($langguages as $value){
+            echo "<br> The value of languages by foreach loop is :";
+            echo $value;
+            
+        }
+    ?>
+</body>
+</html>

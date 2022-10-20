@@ -6,3 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+    
+<body>
+    <?php
+        #-- loops in php
+        //1) while
+        //     $a = 0;
+        //     while ($a <= 10)
+        //     {
+        //     echo "<br>";
+        //     echo "The value of a is " ;
+        //     echo $a;
+        //     $a++;
+        //     }

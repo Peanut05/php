@@ -15,3 +15,17 @@
         printh();
         printh();
         printh();
+
+        function print_number($number){
+        echo "<br> Your Number is:";
+        echo $number ;
+        }
+        print_number(69);
+        print_number(911);
+        print_number(22);
+        print_number(20);
+        print_number(10);
+        print_number(600);
+    ?>
+</body>
+</html>_

@@ -23,3 +23,7 @@
     echo strrev($str1) . "<br>";
     echo strpos($str1 , "one");
     echo"<br>";
+    echo str_replace("is" , "at" , $str1);
+?>
+</body>
+</html>

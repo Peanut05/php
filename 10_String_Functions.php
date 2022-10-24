@@ -7,3 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php
+    #length of string
+    #strlrn() functioin
+    $str = "This is string";
+    echo $str;
+    $length = strlen($str);
+    echo $length;

@@ -15,3 +15,11 @@
     echo $str;
     $length = strlen($str);
     echo $length;
+    #cincatnation of string
+    # . dot is used to cincanate string
+    $str1 = "This is string one" ;
+    echo $str1 . "This is string 2" . "This is string 3";
+    echo "This is word count in string is " . str_word_count($str1);
+    echo strrev($str1) . "<br>";
+    echo strpos($str1 , "one");
+    echo"<br>";

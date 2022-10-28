@@ -14,3 +14,13 @@ if(isset($_POST['name'])){
         die("connection to this database failed due to" . mysqli_connect_error());
     }
     // echo "Success connecting to the db";
+
+    // Collect post variables
+    $name = $_POST['name'];
+    $gender = $_POST['gender'];
+    $age = $_POST['age'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $desc = $_POST['desc'];
+    $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
+    // echo $sql;

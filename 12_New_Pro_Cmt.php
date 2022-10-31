@@ -56,3 +56,14 @@ if(isset($_POST['name'])){
             fill your detials for travel with us
 
         </p>
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="age" id="age" placeholder="Enter tour age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your mobile number">
+            <textarea name="desc" id="desc" placeholder="Enter any information here as you wanna provide us">
+            
+            </textarea>
+            <button class="btn">Submit</button> 

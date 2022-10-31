@@ -67,3 +67,11 @@ if(isset($_POST['name'])){
             
             </textarea>
             <button class="btn">Submit</button> 
+
+        </form>
+
+    </div>
+    <script src="index.js"</script>
+
+</body>
+</html>

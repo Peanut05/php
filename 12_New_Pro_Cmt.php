@@ -35,3 +35,7 @@ if(isset($_POST['name'])){
     else{
         echo "ERROR: $sql <br> $con->error";
     }
+    // Close the database connection
+    $con->close();
+}
+?>

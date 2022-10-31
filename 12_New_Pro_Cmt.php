@@ -28,3 +28,10 @@ if(isset($_POST['name'])){
     // Execute the query
     if($con->query($sql) == true){
         // echo "Successfully inserted";
+
+        // Flag for successful insertion
+        $insert = true;
+    }
+    else{
+        echo "ERROR: $sql <br> $con->error";
+    }
